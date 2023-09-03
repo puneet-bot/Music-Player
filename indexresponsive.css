@@ -1,0 +1,287 @@
+/* Desktops max-width:1280px. */
+
+
+@media only screen and (max-width: 1400px) {
+    main{
+        width: 70%;
+        height: auto;
+    }
+    aside{
+        width:30%;
+        margin-left: 0%;
+        max-height: 300px;
+    }
+    .box-heading{
+        font-size: 1.4rem;
+    }
+    .q-head{
+        font-size: 0.9rem;
+    }
+    .q-sub{
+        font-size: 0.7rem;
+    }
+    .queue-play{
+        font-size: 0.9rem;
+    }
+    #one-copy{
+        display: none;
+    }
+    #one{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1290px) {
+    
+    aside{
+        max-height: 600px;
+    }
+}
+
+
+/* Tablets Ipads portrait mode max-width:1024px. */
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    #search-bar{
+        width: 200px;
+    }
+    #search-bar input{
+        width: 120px;
+    }
+    .box-heading{
+        font-size: 1.2rem;
+        margin-left: 5px;
+    }
+    #my-q-head{
+        width: 70%;
+    }
+    .q-main{
+        font-size: 0.9rem !important; 
+    } 
+    #dropqu{
+        font-size: 10px;
+        width: 60px;
+    }
+
+    main{
+        width: 58%;
+    }
+    aside{
+        width: 42%;
+        margin-top: 22px;
+        height: 400px;
+    }
+    .box1,.box2,.box3{
+        display: inline-block;
+        margin-top: 2%;
+        width: 200px;
+        height: 200px;
+        transition: 0.3s ease;
+    
+    }
+    #play-bar{
+        position: relative;
+        display: inline-block;
+        left: 100px;
+        width: 150px;
+    }
+    #end_num{
+        position: absolute;
+        left: 175%;
+    }
+    #start_num{
+        left: 40%;
+    }
+    #right{
+        display: none;
+    }
+  }
+
+
+
+
+/* Low Resolution Tablets and ipads max-width: 767px. */
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .my-brand{
+        margin-left: 1px;
+        font-size: 1.2rem;
+    }
+    .logo-txt{
+        margin-left: 3px;
+    }
+    #favorites{
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+    #search-bar{
+        width: 150px;
+    }
+    #search-bar input{
+        width: 50px;
+    }
+    #second-nav{
+        margin-right: 0px;
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+    #jumping img{
+        height: 150px !important;
+        width: 150px !important;
+    }
+    #jumping div h3{
+        top: -70px;
+        left: 10px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    #left{
+        left: -40px;
+        transform: scale(0.6);
+    }
+    #right{
+        display: none;
+    }
+    
+  }
+  
+  @media only screen and (max-width:700px){
+    .play-1{
+        margin-top: 15px;
+        width: 280px;
+        height: 60px;
+        
+    }
+    .play-1 p{
+        font-size: 1rem;
+    }
+    .ppt{
+        font-size: 2.5rem;
+        margin-left: 20px;
+        top: -14px;
+    }
+    .my-play-head{
+        width: 150px;
+        font-size: 14px !important;
+    }
+    .play-1 img{
+        height: 60px !important;
+        width: 60px !important;
+    }
+    #celeb img{
+        border-radius: 50%;
+        height: 100px !important;
+        width: 100px !important;
+     }
+     #right{
+         display: none;
+     }
+  }
+
+
+  @media only screen and (max-width:640px){
+    .play-1{
+        margin-top: 10px;
+        width: 200px;
+        height: 40px;
+    }
+    .play-1 p{
+        font-size: 0.9rem;
+    }
+    .ppt{
+        font-size: 2rem;
+        margin-left: 0px;
+        top: -14px;
+    }
+    .my-play-head{
+        width: 110px;
+        top: -10px !important;
+        font-size: 12px !important;
+    }
+    .play-1 img{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    #right{
+        display: none;
+    }
+  }
+
+/* Mobile (Smartphone) max-width: 510px. */
+
+
+
+
+@media only screen and (max-width: 510px) {
+    #search-bar{
+        width: 100px;
+    }
+    #search-bar input{
+        width: 20px;
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+    .ppt{
+        font-size: 1.6rem;
+    }
+    .rect{
+        height: 220px;
+        width: 200px;
+        /* margin: 12px; */
+    }
+    #jumping img{
+        height: 100px !important;
+        width: 100px !important;
+    }
+    #jumping div h3{
+        top: -70px;
+        left: 10px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    #left{
+        left: -40px;
+        transform: scale(0.6);
+    }
+    #right{
+        display: none;
+    }
+    #play-bar{
+        position: relative;
+        display: inline-block;
+        left: 100px;
+        width: 100px;
+    }
+    #end_num{
+        position: absolute;
+        left: 205%;
+    }
+    #start_num{
+        left: 70%;
+    }
+  }
+
+
+
+
+
+  @media only screen and (max-width: 420px) {
+  #second-nav{
+      display: none;
+
+  }
+}

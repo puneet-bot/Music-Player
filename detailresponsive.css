@@ -1,0 +1,242 @@
+@media only screen and (max-width: 1400px) {
+    #display-bodhead{
+        width: 350px;
+    }
+    #display-head img{
+        width: 520px;
+    }
+    #queue-one h2,
+    #queue-two h2{
+        font-size: 1.2rem;
+    }
+    #queue-one span,
+    #queue-two span{
+        font-size: 0.8rem !important;
+        margin-left: 30%;
+    }
+   
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    main{
+        width: 75%;
+    }
+    aside{
+        width: 22%;
+    }
+    #display-bodhead{
+        width: 100%;
+        /* background-color: green; */
+    }
+    #display-bodhead h5{
+        display: none;
+    }
+    #display-bodhead h1 {
+        font-size: 3rem;
+        display: inline-block;
+        width: 30%;
+        /* background-color: white; */
+    }
+    #display-head img{
+        width: 100%;
+        height: auto;
+    }
+    #display-head p{
+        font-size: 16px;
+        width: 90%;
+        justify-content: justify;
+        margin-top:0px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    #queue-one h2,
+    #queue-two h2{
+        font-size: 1.1rem;
+    }
+    #queue-one span,
+    #queue-two span{
+        font-size: 0.7rem !important;
+        margin-left: 25%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #search-bar{
+        width: 200px;
+    }
+    #search-bar input{
+        width: 120px;
+    }
+    main{
+        width: 65%;
+    }
+    aside{
+        width: 32%;
+    }
+    #display-bodhead{
+        width: 100%;
+        /* background-color: green; */
+    }
+    #display-bodhead h5{
+        display: none;
+    }
+    #display-bodhead h1 {
+        font-size: 3rem;
+        display: inline-block;
+        width: 30%;
+        /* background-color: white; */
+    }
+    #display-head img{
+        width: 100%;
+        height: auto;
+    }
+    #display-head p{
+        font-size: 16px;
+        width: 90%;
+        justify-content: justify;
+        margin-top:0px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    #queue-one h2,
+    #queue-two h2{
+        font-size: 1.3rem;
+    }
+    #queue-one span,
+    #queue-two span{
+        margin-left: 20%;
+    }
+/*     
+
+#listplay tr th{
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 1.2rem;
+    padding-bottom: 30px !important;
+} */
+#listplay tr td{
+    height: 75px;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+  .track img{
+      margin-left: 0px;
+      margin-right: 5px;
+      height: 40px !important;
+      width: 40px !important;
+  }
+  .tracka{
+      display: block;
+  }
+  .tracka span{
+    font-size: 0.8rem !important;
+  }
+  .album,
+  tr th{
+      font-size: 1rem !important;
+  }
+  #play-bar{
+    position: relative;
+    display: inline-block;
+    left: 100px;
+    width: 150px;
+}
+#end_num{
+    position: absolute;
+    left: 175%;
+}
+#start_num{
+    left: 40%;
+}
+#right{
+    display: none;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .my-brand{
+        margin-left: 1px;
+        font-size: 1.2rem;
+    }
+    .logo-txt{
+        margin-left: 3px;
+    }
+    #favorites{
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+    #search-bar{
+        width: 150px;
+    }
+    #search-bar input{
+        width: 50px;
+    }
+    #second-nav{
+        margin-right: 0px;
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+    #left{
+        left: -40px;
+        transform: scale(0.6);
+    }
+    #right{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    #search-bar{
+        width: 100px;
+    }
+    #search-bar input{
+        width: 20px;
+    }
+
+    .tracka{
+        font-size: 0.8rem !important;
+    }
+  .tracka span{
+    font-size: 0.7rem !important;
+  }
+  .album,
+  tr th{
+      font-size: 0.6rem !important;
+  }
+  #left{
+    left: -40px;
+    transform: scale(0.6);
+}
+#right{
+    display: none;
+}
+#play-bar{
+    position: relative;
+    display: inline-block;
+    left: 100px;
+    width: 100px;
+}
+#end_num{
+    position: absolute;
+    left: 205%;
+}
+#start_num{
+    left: 70%;
+}
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    #second-nav{
+        display: none;
+  
+    }
+  }

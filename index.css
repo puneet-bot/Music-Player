@@ -1,0 +1,634 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(
+    circle closest-corner at center 125px,
+    #222,
+    black 40%
+  ) no-repeat;
+    color: white;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+
+.text-hover {
+    
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: none;
+    position: relative;
+    top:-300px;
+}
+.text-hover a{
+    display: block;
+    left: 90px;
+    top: 220px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+
+}
+.text-hover a .hello{
+    font-size: 3rem;
+    color:rgb(67, 173, 67) ;
+    border: 2px solid rgb(67, 173, 67);
+    border-radius: 50%;
+    background-color: white ;
+}
+
+.text-hover div{
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+#heart-hover{
+    color: white;
+    text-decoration: none;
+}
+#heart-hover:hover >i{
+    color: red;
+    transform: scale(1.7);
+}
+
+/* =======================================================Start Of Navbar ====================================================== */
+
+nav li {
+    display: inline-block;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+#first-nav{
+    display: inline-block;
+    width: auto;
+}
+#logo-head,#user-head{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.my-brand{
+    position: relative;
+    color: white;
+    top:-12px;
+    margin-left: 10px;
+    font-weight: 800;
+}
+#brand-name span{
+    position: relative;
+    text-decoration: none;
+    top:30px;
+}
+.logo-txt{
+    margin-left: 30px;
+}
+.sangg{
+    animation: bounce-3 2s ease-in-out;
+}
+@keyframes bounce-3 {
+    0%{
+        transform: translateY(20px);
+    }
+    25%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    75%{
+        transform: translateY(-10px);
+    }
+}
+#favorites{
+    position: relative;
+    margin-left: 50px;
+    font-weight: 100;
+    top: -12px;
+    font-size: 1.1rem;
+}
+#second-nav{
+    position: relative;
+    /* left:40%; */
+    float: right;
+    margin-right: 30px;
+    top: 20px;
+}
+
+#second-img{
+    margin-left: 30px;
+}
+#notification{
+    border-radius: 50%;
+    background-color: red;
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    top: -2px;
+    left: 9px;
+    color: transparent;
+}
+.fa-bell{
+    position: relative;
+    top:-12px;
+    font-size: 1.2rem;
+    color: white;
+}
+#search-bar{
+    position: relative;
+    display: inline-block;
+    top: -15px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(47, 47, 51, 0.39);
+}
+#search-bar input{
+    background: transparent;
+    display: inline-block;
+    height: 100%;
+    width: 220px;
+    color: white;
+    border:none;
+}
+input:focus,select:focus{
+    outline: none;
+}
+.fa-search , .fa-microphone{
+    position: relative;
+    width: 30px;
+    height: 90%;
+    text-align: center;
+    top:0px;
+    left:4px;
+}
+
+/* =======================================================End Of Navbar ====================================================== */
+
+
+
+/* ======================================================= Navbar ====================================================== */
+main{
+    width: 70%;
+    height: auto;
+    display: inline-block;
+}
+aside{
+    position: absolute;
+    width:30%;
+    height: 600px;
+    margin-top: 6%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: transparent;
+    /* border: 2px solid silver; */
+    overflow-y: scroll;
+}
+aside::-webkit-scrollbar {
+    width: 10px;
+}
+.box-heading{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 35px;
+    text-transform: capitalize;
+    font-size: 2.2rem;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box1,.box2,.box3{
+    display: inline-block;
+    margin-top: 2%;
+    width: 300px;
+    height: 300px;
+    transition: 0.3s ease;
+
+}
+
+
+
+
+
+.box1:hover,.box2:hover,.box3:hover{
+    box-shadow: 5px 5px 12px 2px rgba(151, 150, 150, 0.555);
+    transform: scale(1.05);
+}
+.box1 img,
+.box2 img,
+.box3 img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Playlist Section */
+#one{
+    height: auto;
+    display: none;
+}
+
+.playlists{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.play-1{
+    margin-left: 10px;
+}
+.play-1{
+    display: inline-block;
+    margin-top: 25px;
+    width: 320px;
+    background-color: rgba(36, 33, 33, 0.39);
+
+    border-radius: 5px;
+    height: 80px;
+    
+}
+.play-1 img{
+    background-position: cover;
+    display: inline-block;
+}
+.play-1 p{
+    display: inline-block;
+    position: relative;
+    top:-35px;
+    left:10px;
+    font-size: 1.2rem;
+}
+.ppt{
+    position: relative;
+    font-size: 3rem;
+    top:-25px;
+    color: rgb(62, 177, 62) !important;
+    visibility: hidden;
+    transition: 0.2s ease-in-out;
+}
+.play-1:hover > a .fa-play-circle{
+    visibility: visible;
+    
+}
+.my-play-head{
+    width: 150px;
+    font-size: 16px !important;
+}
+.play-1:hover{
+    background-color: rgba(36, 33, 33, 0.39);
+    box-shadow:5px 5px 12px 2px rgba(82, 81, 81, 0.555) ;
+}
+/* .one:hover{ 
+} */
+
+.pop{
+    margin: 1%;
+    width: 98%;
+    position: relative;
+    height: auto;
+    justify-content: space-around;
+}
+.pop h1{
+    font-size: 1.7rem;
+    margin: 40px;
+}
+.pop h1:hover{
+    text-decoration: underline;
+}
+#rectangle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    cursor: pointer;
+}
+.rect:hover > div{
+    background-color: rgba(0, 0, 0, 0.363);
+    display: block;
+}
+.rect:hover a:not(#rect-link){
+    animation-name: example;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out ;
+}
+#rect-link{
+    text-decoration: none;
+    background-color: red;
+}
+.rect{
+    height: 300px;
+    width: 250px;
+}
+@keyframes example {
+    from {padding-top:4px;}
+    to { padding-top: -8px;}
+  }
+.rect img:hover div{
+   display: block;
+}
+
+.rect img{
+    box-shadow: 5px 5px 12px 2px rgba(82, 82, 82, 0.555); 
+    display: inline-block;
+    margin: 0 auto;
+    background-position: cover;
+    width: 98%;
+    height: 98%;
+}
+
+
+
+/* Jump Section */
+.jump{
+    width: 100%;
+}
+
+#jumping{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    width: 80%;
+    background-color: rgba(36, 33, 33, 0.39);
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#jumping::-webkit-scrollbar {
+    width: 10px;
+}
+#jumping div{
+    display: inline-block;
+    margin-top: 40px;
+}
+#jumping div h3{
+    position: relative;
+    top: -70px;
+    left: 70px;
+    color: white;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+#jumping div:hover{
+    transform: scale(1.2);
+}
+
+/* Aside Queue Player */
+
+
+#queue-player div{
+    margin-top: 15px;
+}
+/* .animate-queue-play{
+    /* animation: animate-play 2s ease-in-out 0.2s infinite alternate; 
+} */
+.queue-play{
+    width: 100%;
+    font-size: 14px;
+}
+
+.queue-play,
+.queue-play img,
+.queue-play p{
+    margin-left: 10px;
+}
+.queue-play > p{
+    display: inline-block;
+}
+.q-num{
+    width: 20px;
+    position: relative;
+    top: -10px;
+}
+.fa-heart{
+    position: relative;
+    right: 0px;
+    float: right;
+    top:-20px;
+    margin-left: 20px;
+}
+.q-head{
+    width: 70%;
+}
+.q-sub{
+    display: inline-block;
+    font-size: 14px;
+    margin-top:5px;
+    color: rgba(255,255,255,0.4);
+    font-weight: 100;
+}
+#my-q-head{
+    /* background-color: red; */
+    display: inline-block;
+    width: 70%;
+}
+.q-main{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 10px;
+    display: inline-block;
+    width: 70%;
+    margin-top: 20px;
+}
+#dropdown{
+    width: auto;
+    right: 0%;
+}
+#dropqu{
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 70px;
+}
+#dropqu option{
+    color: black;
+}
+.qmain6{
+    display: inline-block;
+    position: relative;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    /* background-color: red; */
+    width: 98%;
+    top: -22px;
+    text-align: right;
+}
+#dropdown,
+select{
+    display: inline-block;
+}
+/* Player Section */
+
+#player{
+    
+    position: fixed;
+    background-color: rgb(29, 27, 27);
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+}
+#left{
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 20px;
+    transform: scale(0.8);
+    /* background-color: red; */
+}
+#left i{
+    margin-left: 10px;
+    position: relative;
+    top: -25px;
+}
+#left img{
+    border-radius: 50%;
+    animation: 5s linear 0s infinite rotation;
+}
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#sub-left{
+    display: inline-block;
+}
+#sub-left > h3{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+#sub-left h3 span{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+#middle{
+    position: absolute;
+    width: auto;
+    display: inline-block;
+    /* background-color: red; */
+    width: 100%;
+    left: 0px;
+    top:10px;
+}
+#middle i{
+    position: relative;
+    left: 43%;
+    margin: 10px;
+}
+.progress-bar{
+    position: absolute;
+    left: 33%;
+}
+#audio{
+    display: inline-block;
+    background-color: lightgrey;
+    height: 3px;
+    border-radius: 3px;
+    
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#audio-width{
+    display: inline-block;
+    height: 90%;
+    background-color: rgb(106, 230, 106);
+    position: relative;
+    width: 40%;
+    top: -11.5px;
+}
+#right{
+    position: relative;
+    display: inline-block;
+    left: 63%;
+    top: -40px;
+}
+#right i{
+    margin:5px;
+}
+.volume-bar{
+    display: inline-block;
+}
+.fa-arrows-alt-v{
+    transform: rotate(45deg);
+}
+#audio-bar{
+    width: 60px;
+    position: relative;
+    top: 5px;
+}
+#play-bar{
+    position: relative;
+    display: inline-block;
+    left: 100px;
+    width: 300px;
+}
+#start_num{
+    position: absolute;
+    left: 20%;
+}
+#end_num{
+    position: absolute;
+    left: 135%;
+}
+
+#populars{
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+}
+#populars h1{
+    margin: 50px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+#populars h1:hover{
+   text-decoration: underline;
+}
+#celeb{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content:space-evenly;
+    margin: 20px;
+    height: 200px;
+    width: 100%;
+    overflow-x:scroll;
+    overflow-y: hidden;
+}
+#celeb::-webkit-scrollbar {
+    width: 20px;
+}
+
+#celeb img{
+   border-radius: 50%;
+}
+#celeb img:hover{
+    transform: scale(1.5) !important;
+    box-shadow: 0px 0px 12px 2px rgba(151, 150, 150, 0.555);
+
+}
